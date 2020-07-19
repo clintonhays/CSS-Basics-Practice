@@ -1,0 +1,196 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #696969;
+	font: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	border-bottom: 10px solid #ff5050;
+}
+
+header {
+	text-align: center;
+	color: white;
+	background: linear-gradient(rgba(255, 0, 0, 0.65), transparent), linear-gradient(0deg, #fff, transparent),
+		#ff5050 url("img/relaxonox.jpg") no-repeat center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 900px;
+	margin-bottom: 150px;
+}
+
+.title {
+	display: inline-block;
+	font-size: 3em;
+	margin-top: 130px;
+}
+
+h1 {
+	font-size: 8em;
+}
+
+.star {
+	margin-top: -60px;
+}
+
+.intro {
+	width: 90%;
+	margin: auto;
+	padding-bottom: 25px;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	border-bottom: 2px solid #ff5050;
+}
+
+a {
+	text-decoration: none;
+	color: #ff5050;
+}
+
+a:hover {
+	color: rgb(247, 150, 150);
+}
+
+.call-out {
+	display: block;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.primary-content,
+.secondary-content {
+	width: 90%;
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	max-width: 850px;
+}
+
+.secondary-content {
+	width: 90%;
+	border-top: 2px solid #ff5050;
+}
+
+h2 {
+	font-size: 2.5em;
+	border-bottom: 2px solid #ff5050;
+}
+
+.food {
+	color: white;
+	padding: 15% 20%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),
+		linear-gradient(rgba(0, 0, 0, 0.6), transparent), rgb(255, 80, 80) url("img/pho.jpg") no-repeat center;
+	background-size: cover;
+	box-shadow: inset 0 0 50px 10px rgba(0, 0, 0, .8);
+	border-radius: 25px;
+	border-top: 5px solid #ff5050;
+	margin-bottom: 50px;
+}
+
+.food p {
+	font-size: 1.5rem;
+}
+
+.destinations,
+.sites {
+	width: 45%;
+	text-align: left;
+}
+
+.destinations,
+.sites p {
+	line-height: 1.5em;
+}
+
+.destinations img,
+.sites img {
+	width: 75%;
+	border-radius: 15px;
+}
+
+.destinations {
+	float: right;
+}
+
+.sites {
+	float: left;
+}
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+ol,
+ul {
+	list-style: square;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.main-footer {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	border-top: 2px solid #ff5050;
+	margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+	header {
+		height: 540px;
+	}
+
+	.title {
+		font-size: 1.5em;
+	}
+
+	h1 {
+		font-size: 6em;
+	}
+
+	.star {
+		display: none;
+	}
+
+	.food {
+		max-width: 90%;
+	}
+
+	.food p {
+		font-size: 1.25em;
+	}
+
+	.secondary-content {
+		max-width: 100%;
+	}
+
+	.secondary-content img {
+		width: 100%;
+	}
+
+	.secondary-content p {
+		line-height: 1.5em;
+	}
+
+	.secondary-content h3 {
+		font-size: 1.75em;
+	}
+
+	.sites,
+	.destinations {
+		float: none;
+		width: 100%;
+		margin: auto;
+	}
+}
+
+@media (max-width: 1024px) {
+}
